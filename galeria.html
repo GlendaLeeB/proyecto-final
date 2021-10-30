@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto-final</title>
+    <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<header>
+    <img>
+        <img class="logo" src="images/logo.jpg" alt="WATT" width="300">
+    </img>
+    
+    <div>
+        <h1>Introducción al Desarrollo Web</h1>
+    </div>
+    
+    <nav>
+        <a class="button" href="index.html">Inicio</a> 
+        <a class="button" href="bibliografia.html">Bibliografía</a>
+        <a class="button" href="galeria.html">Galería</a>
+    </nav>
+        
+</header>
+
+
+<body>
+    <main>
+        <div>
+            <h2>Galeria</h2>
+        </div>
+
+        <div id="app">
+            <button onclick="toggleCategory('cate01')">Mascotas</button>
+            <button onclick="toggleCategory('cate02')">Pasatiempos</button>
+            <button onclick="toggleCategory('cate03')">Paisajes</button>
+
+            <div id="Galeria">
+                <div class="category" id="category1">
+                    <img alt="Pet01" src="images/pet01.png" width="300" height="300"></a>
+                    <img alt="Pet02" src="images/pet02.png" width="300" height="300"></a>
+                    <img alt="Pet03" src="images/pet03.png" width="300" height="300"></a>
+                    <img alt="Pet04" src="images/pet04.png" width="300" height="300"></a>
+                    </div>
+                    
+                <div class="category" id="category2">
+                    <img alt="Hobbie01" src="images/Hobbie01.jpg" width="300" height="300"></a>
+                    <img alt="Hobbie02" src="images/Hobbie02.jpg" width="300" height="300"></a>
+                    <img alt="Hobbie03" src="images/Hobbie03.png" width="300" height="300"></a>
+                    <img alt="Hobbie04" src="images/Hobbie04.png" width="300" height="300"></a>
+                    </div>   
+                <div class="category" id="category3">
+                    <img alt="Loc01" src="images/Loc01.jpg" width="300" height="300"></a>
+                    <img alt="Loc02" src="images/Loc02.jpg" width="300" height="300"></a>
+                    <img alt="Loc03" src="images/Loc03.jpg" width="300" height="300"></a>
+                    <img alt="Loc04" src="images/Loc04.jpg" width="300" height="300"></a>
+                    </div>  
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <small>&#169; 2021 Hecho por Glenda Burke</small>
+        <i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/"></a>
+        <i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/"></a>
+        <i class="fab fa-twitter-square"></i><a href="https://twitter.com/"></a>
+        <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/" target="_blank"></a>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
